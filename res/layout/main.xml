@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/grey" >
+
+        <TextView
+            android:id="@+id/tvusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvsign"
+            android:layout_margin="10dp"
+            android:text="@string/username"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etusername"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvusername"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="none" />
+
+        <TextView
+            android:id="@+id/tvpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etusername"
+            android:layout_margin="10dp"
+            android:text="@string/password"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/etpass"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvpassword"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/tvsign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:text="@string/login"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" 
+            android:textSize="20dp"
+            />
+
+        <Button
+            android:id="@+id/btnsignin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnsignup"
+            android:layout_alignBottom="@+id/btnsignup"
+            android:layout_alignLeft="@+id/etpass"
+            android:background="@drawable/btn"
+            android:text="@string/signin"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnsignup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/etpass"
+            android:layout_below="@+id/etpass"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/btn"
+            android:text="@string/signup"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

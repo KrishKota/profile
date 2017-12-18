@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="login">LOGIN</string>
+    <string name="app_name">PROFILE MANAGEMENT</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="keepme">Keep me logged in</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="title_activity_thread">Thread</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_get_gps">GetGps</string>
+    <string name="title_activity_sign_up">Sign_up</string>
+    
+    <string name="btn_txt_profile">Profile Management</string>
+    <string name="btn_txt_alert">Location based Alerts</string>
+    <string name="txt_prof_name">Profile Name</string>
+    <string name="txt_ringtone">Select Ringtone</string>
+    <string name="txt_wallpaper">Select Wallpaper</string>
+    <string name="btn_txt_save">Save Profile</string>
+    
+    <string-array name="spn_profile_modes">
+        <item >Silent</item>
+        <item >Sound</item>
+    </string-array>
+
+</resources>
